@@ -1,6 +1,9 @@
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+/*arrière plan du site avec plusieurs images qui change*/
 .arriere_plan {
   animation: backgroundChange 30s infinite;
 }
@@ -25,6 +28,9 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+/*fin du changement arrière plan*/
+
+/*texte qui s'affiche progressivement*/
 
 #typed-text {
   font-family: "Montserrat", sans-serif;
@@ -35,7 +41,10 @@
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
   margin-left: 20px;
   padding-bottom: 15px;
+  white-space: pre; /* pour préserver les espaces */
 }
+/*fin du titre qui s'affiche*/
+
 h2 {
   font-family: "Manrope", sans-serif;
   font-size: 3em;
@@ -57,6 +66,7 @@ h3 {
   opacity: 0.5;
   text-align: center;
 }
+/*parcours professionelle décris*/
 .parcours {
   font-family: "Manrope", sans-serif;
   font-size: 1em;
@@ -72,7 +82,7 @@ h3 {
   width: 60%;
   margin: 200px auto auto auto;
 }
-
+/*haut et pied de page */
 header,
 footer {
   background: linear-gradient(to right, #6156c5, #5fc556);
@@ -133,13 +143,7 @@ nav {
   opacity: 0.5;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
-.photo {
-  width: 140px;
-  height: 180px;
-  border-radius: 44% 20% 48% 12% / 44% 20% 48% 12%;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-  margin-left: 4em;
-}
+
 .contact {
   font-family: "Montserrat", sans-serif;
   font-size: 1em;
@@ -202,10 +206,23 @@ em {
 .adresse_2:hover {
   opacity: 0.5;
 }
+/*style pour le numéro de téléphone*/
 span {
   font-family: "Manrope", sans-serif;
   font-size: 1em;
 }
+/*fin des logo/lien haut et pied de page*/
+
+/*photo de profil*/
+.photo {
+  width: 140px;
+  height: 180px;
+  border-radius: 44% 20% 48% 12% / 44% 20% 48% 12%;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  margin-left: 4em;
+}
+
+/*lien qui remonte en haut de la page*/
 .hautdepage {
   font-family: "Manrope", sans-serif;
   font-size: 1em;
@@ -215,21 +232,14 @@ span {
 .hautdepage:hover {
   opacity: 0.5;
 }
+/*fin du lien de haut de page*/
+
+/*mention tous droit réservé*/
 .copyright {
   margin: 15px;
   padding-bottom: 10px;
 }
-#typed-text {
-  font-family: "Montserrat", sans-serif;
-  font-size: 3.5em;
-  background-image: linear-gradient(to bottom, #efedf4, #60b51b);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
-  margin-left: 20px;
-  padding-bottom: 15px;
-  white-space: pre; /* pour préserver les espaces */
-}
+/*style pour les images*/
 .customisation {
   font-family: "Montserrat", sans-serif;
   font-size: 2em;
@@ -321,6 +331,9 @@ span {
   align-items: center;
   margin: auto;
 }
+/*fin du style des images*/
+
+/*style banniere de présentation du site et qui disparait*/
 .banner {
   color: white; /* Couleur du texte */
   text-shadow: 6px 6px 8px rgba(17, 228, 70, 0.5);
@@ -338,3 +351,4 @@ span {
 .banner.hide {
   opacity: 0; /* Rend la bannière invisible */
 }
+/*fin du style de la bannière*/
