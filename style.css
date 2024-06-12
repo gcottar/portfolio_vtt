@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+}
+.arriere_plan {
+  animation: backgroundChange 30s infinite;
+}
+
+@keyframes backgroundChange {
+  0% {
+    background-image: url("images/VTT/giant_fluo.JPEG");
+  }
+  32% {
+    background-image: url("images/VTT/CustomBike_\ \(14\).JPG");
+  }
+  66% {
+    background-image: url("images/VTT/orbea.JPEG");
+  }
+  100% {
+    background-image: url("images/VTT/CustomBike_\ \(36\).JPG");
+  }
+}
+.arriere_plan {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#typed-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5em;
+  background-image: linear-gradient(to bottom, #efedf4, #60b51b);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  margin-left: 20px;
+  padding-bottom: 15px;
+}
+h2 {
+  font-family: "Manrope", sans-serif;
+  font-size: 3em;
+  color: #0c0c0c;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  background-color: #e1e0e6;
+  opacity: 0.6;
+  padding: 5px;
+  text-align: center;
+  width: 60%;
+  margin: 100px auto 80px auto;
+  border-radius: 10px;
+}
+h3 {
+  font-family: "Manrope", sans-serif;
+  font-size: 2em;
+  color: #0c0c0c;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
+  text-align: center;
+}
+.parcours {
+  font-family: "Manrope", sans-serif;
+  font-size: 1em;
+  margin: 10px 0px 10px 0px;
+  text-align: justify;
+  font-weight: 320;
+  padding: 10px 20px 10px 10px;
+  background-color: rgb(181, 226, 226);
+  background-position: 50%;
+  opacity: 0.8;
+  border-radius: 10px;
+  line-height: 1.75;
+  width: 60%;
+  margin: 200px auto auto auto;
+}
+
+header,
+footer {
+  background: linear-gradient(to right, #6156c5, #5fc556);
+  height: auto;
+}
+footer {
+  text-align: center;
+}
+.img_linkedin {
+  width: 60px;
+  height: 60px;
+  background: none;
+}
+.img_linkedin:hover {
+  opacity: 0.5;
+}
+.img_custom {
+  width: 60px;
+  height: 60px;
+  background: none;
+  padding-top: 5px;
+}
+.custom_realisation {
+  color: #2a0cec;
+  font-size: 1em;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  font-family: "Manrope", sans-serif;
+  padding: 5px 5px 5px 5px;
+}
+.custom_realisation:hover {
+  opacity: 0.6;
+}
+.img_github {
+  width: 90px;
+  height: 60px;
+  background: none;
+}
+.img_github:hover {
+  opacity: 0.5;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.lien_cv {
+  color: #ffffff;
+  font-size: 1.5em;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  font-family: "Manrope", sans-serif;
+  border: solid 2px #181717;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+}
+.lien_cv:hover {
+  opacity: 0.5;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.photo {
+  width: 140px;
+  height: 180px;
+  border-radius: 44% 20% 48% 12% / 44% 20% 48% 12%;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  margin-left: 4em;
+}
+.contact {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  color: #4d0551;
+  align-items: center;
+  padding: 10px 0px 10px 0px;
+}
+.contact_moi {
+  font-family: "Manrope", sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  color: #0c0c0c;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+.contact_moi:hover {
+  opacity: 0.5;
+}
+em {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-size: 1.1em;
+  color: #c9c0c0;
+}
+.logo_pied-page {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  padding: 10px 0px 10px 0px;
+}
+.mail {
+  width: 40px;
+  height: 40px;
+  margin: 0px 10px 0px 0px;
+}
+.mail_2 {
+  font-family: "Montserrat", sans-serif;
+  color: #4d0551;
+  text-decoration: none;
+}
+.mail_2:hover {
+  opacity: 0.5;
+}
+
+.tel {
+  width: 40px;
+  height: 40px;
+  margin: 0px 10px 0px 20px;
+}
+.adresse {
+  width: 50px;
+  height: 40px;
+}
+.adresse_2 {
+  font-family: "Manrope", sans-serif;
+  color: #4d0551;
+  text-decoration: none;
+}
+.adresse_2:hover {
+  opacity: 0.5;
+}
+span {
+  font-family: "Manrope", sans-serif;
+  font-size: 1em;
+}
+.hautdepage {
+  font-family: "Manrope", sans-serif;
+  font-size: 1em;
+  text-decoration: none;
+  color: #4d0551;
+}
+.hautdepage:hover {
+  opacity: 0.5;
+}
+.copyright {
+  margin: 15px;
+  padding-bottom: 10px;
+}
+#typed-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5em;
+  background-image: linear-gradient(to bottom, #efedf4, #60b51b);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  margin-left: 20px;
+  padding-bottom: 15px;
+  white-space: pre; /* pour préserver les espaces */
+}
+.customisation {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  color: aliceblue;
+  width: 100%;
+  font-weight: 1000;
+  text-align: center;
+  padding: 40px;
+  margin: 200px auto 100px auto;
+}
+.avant-apres {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  color: #6156c5;
+  width: 20%;
+  text-align: center;
+  border-radius: 40%;
+  padding: 5px;
+  margin: 50px auto auto auto;
+  background-color: white;
+  opacity: 0.8;
+}
+.img_bike_avant {
+  width: 400px;
+  height: 300px;
+  margin-top: 4em;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  border: solid 1px white;
+}
+.img_bike_avant:hover {
+  border: solid 1px blue;
+}
+.img_bike {
+  width: 400px;
+  height: 300px;
+  margin-top: 6em;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  border: solid 1px white;
+}
+.img_bike:hover {
+  border: solid 1px blue;
+}
+.img_bike_blue {
+  width: 400px;
+  height: 300px;
+  margin-top: 6em;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  border: solid 1px white;
+}
+.img_bike_blue:hover {
+  border: solid 1px blue;
+}
+
+.img_cube {
+  width: 400px;
+  height: 400px;
+  margin-top: 6em;
+  margin-bottom: 6em;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  border: solid 1px white;
+}
+.img_cube:hover {
+  border: solid 1px blue;
+}
+.groupeimg_0 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.groupeimg_1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.groupeimg_2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.groupeimg_3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+.groupeimg_4 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+.banner {
+  color: white; /* Couleur du texte */
+  text-shadow: 6px 6px 8px rgba(17, 228, 70, 0.5);
+  text-align: center; /* Centrer le texte */
+  padding: 50px 0; /* Espacement autour du texte */
+  font-size: 4em; /* Taille du texte */
+  position: fixed; /* Position fixe en haut de la page */
+  width: 100%; /* Largeur complète */
+  top: 30%; /* En haut de la page */
+  left: 0; /* Aligné à gauche */
+  z-index: 1000; /* Au-dessus des autres éléments */
+  transition: opacity 1s ease-out; /* Transition pour la disparition */
+}
+
+.banner.hide {
+  opacity: 0; /* Rend la bannière invisible */
+}
