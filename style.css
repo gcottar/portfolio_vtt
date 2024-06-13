@@ -43,7 +43,7 @@
 /*fin du titre qui s'affiche*/
 
 h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 3em;
   color: #0c0c0c;
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
@@ -156,7 +156,7 @@ nav {
 }
 .mail_2 {
   font-family: "Montserrat", sans-serif;
-  color: #4d0551;
+  color: #000000;
   text-decoration: none;
 }
 .mail_2:hover {
@@ -173,8 +173,8 @@ nav {
   height: 40px;
 }
 .adresse_2 {
-  font-family: "Manrope", sans-serif;
-  color: #4d0551;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
   text-decoration: none;
 }
 .adresse_2:hover {
@@ -182,7 +182,7 @@ nav {
 }
 /*style pour le numéro de téléphone*/
 span {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1em;
 }
 /*fin des logo/lien haut et pied de page*/
@@ -200,7 +200,7 @@ span {
 }
 /*parcours professionelle décris*/
 .parcours {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1em;
   margin: 10px 0px 10px 0px;
   text-align: justify;
@@ -222,10 +222,10 @@ li {
 }
 /*lien qui remonte en haut de la page*/
 .hautdepage {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1em;
   text-decoration: none;
-  color: #4d0551;
+  color: #000000;
 }
 .hautdepage:hover {
   opacity: 0.5;
