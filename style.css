@@ -12,14 +12,11 @@
   0% {
     background-image: url("images/VTT/giant_fluo.JPEG");
   }
-  32% {
+  50% {
     background-image: url("images/VTT/CustomBike_\ \(14\).JPG");
   }
-  66% {
-    background-image: url("images/VTT/orbea.JPEG");
-  }
   100% {
-    background-image: url("images/VTT/CustomBike_\ \(36\).JPG");
+    background-image: url("images/VTT/orbea.JPEG");
   }
 }
 .arriere_plan {
