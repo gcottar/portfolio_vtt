@@ -56,29 +56,13 @@ h2 {
   border-radius: 10px;
 }
 h3 {
-  font-family: "Manrope", sans-serif;
-  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.6em;
   color: #0c0c0c;
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
-  opacity: 0.5;
   text-align: center;
 }
-/*parcours professionelle décris*/
-.parcours {
-  font-family: "Manrope", sans-serif;
-  font-size: 1em;
-  margin: 10px 0px 10px 0px;
-  text-align: justify;
-  font-weight: 320;
-  padding: 10px 20px 10px 10px;
-  background-color: rgb(181, 226, 226);
-  background-position: 50%;
-  opacity: 0.8;
-  border-radius: 10px;
-  line-height: 1.75;
-  width: 60%;
-  margin: 200px auto auto auto;
-}
+
 /*haut et pied de page */
 header,
 footer {
@@ -103,19 +87,19 @@ footer {
   padding-top: 5px;
 }
 .custom_realisation {
-  color: #2a0cec;
-  font-size: 1em;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  color: #050505;
   text-decoration: none;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-  font-family: "Manrope", sans-serif;
-  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 .custom_realisation:hover {
-  opacity: 0.6;
+  color: #2a16de;
 }
 .img_github {
   width: 90px;
-  height: 60px;
+  height: 50px;
   background: none;
 }
 .img_github:hover {
@@ -127,44 +111,37 @@ nav {
   align-items: center;
 }
 .lien_cv {
-  color: #ffffff;
-  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  color: #0c0c0c;
   text-decoration: none;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-  font-family: "Manrope", sans-serif;
-  border: solid 2px #181717;
   border-radius: 10px;
-  padding: 5px 10px 5px 10px;
 }
 .lien_cv:hover {
-  opacity: 0.5;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  color: #2a16de;
 }
 
 .contact {
   font-family: "Montserrat", sans-serif;
-  font-size: 1em;
-  color: #4d0551;
+  font-size: 1.2em;
+  color: #0d0d0d;
   align-items: center;
   padding: 10px 0px 10px 0px;
 }
 .contact_moi {
-  font-family: "Manrope", sans-serif;
-  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
   text-align: center;
   text-decoration: none;
+  border-radius: 10px;
   color: #0c0c0c;
-  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 .contact_moi:hover {
-  opacity: 0.5;
+  color: #2a16de;
 }
-em {
-  font-family: "Manrope", sans-serif;
-  font-style: normal;
-  font-size: 1.1em;
-  color: #c9c0c0;
-}
+
 .logo_pied-page {
   display: flex;
   justify-content: space-evenly;
@@ -183,7 +160,7 @@ em {
   text-decoration: none;
 }
 .mail_2:hover {
-  opacity: 0.5;
+  color: #2a16de;
 }
 
 .tel {
@@ -201,7 +178,7 @@ em {
   text-decoration: none;
 }
 .adresse_2:hover {
-  opacity: 0.5;
+  color: #2a16de;
 }
 /*style pour le numéro de téléphone*/
 span {
@@ -218,7 +195,31 @@ span {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   margin-left: 4em;
 }
-
+.photo:hover {
+  opacity: 0.7;
+}
+/*parcours professionelle décris*/
+.parcours {
+  font-family: "Manrope", sans-serif;
+  font-size: 1em;
+  margin: 10px 0px 10px 0px;
+  text-align: justify;
+  font-weight: 320;
+  padding: 10px 20px 10px 10px;
+  background-color: rgb(181, 226, 226);
+  background-position: 50%;
+  opacity: 0.8;
+  border-radius: 10px;
+  line-height: 1.75;
+  width: 70%;
+  margin: 200px auto auto auto;
+}
+ul {
+  margin: 10px 0px 10px 80px;
+}
+li {
+  font-weight: 700;
+}
 /*lien qui remonte en haut de la page*/
 .hautdepage {
   font-family: "Manrope", sans-serif;
