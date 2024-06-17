@@ -80,6 +80,14 @@ footer {
 .img_linkedin:hover {
   opacity: 0.5;
 }
+.img_insta {
+  width: 60px;
+  height: 60px;
+  background: none;
+}
+.img_insta:hover {
+  opacity: 0.5;
+}
 .img_custom {
   width: 60px;
   height: 60px;
