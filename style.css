@@ -314,6 +314,12 @@ li {
 .img_cube:hover {
   border: solid 1px blue;
 }
+.img_cube_1 {
+  width: 400px;
+  height: 400px;
+  margin-top: 6em;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
 .groupeimg_0 {
   display: flex;
   justify-content: space-evenly;
