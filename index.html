@@ -23,7 +23,26 @@
   
   <div class="arriere_plan">
     <body>
-      <audio src="music/Lennart Schroot & Unknown Brain - Kuyenda (feat. Sru) [NCS Release].mp3"autoplay>Votre navigateur ne peut lire ce contenu audio.</nav></audio>
+      <!--Musique du site-->
+      <audio id="background-music" src="music/Amadeus - Legendary.mp3" loop>
+        Votre navigateur ne peut lire ce contenu audio.</audio>
+        <div id="custom-audio-controls">
+          <button id="play-button">Play</button>
+          <button id="pause-button">Pause</button>
+      </div>
+      <script>
+        const audio = document.getElementById('background-music');
+        const playButton = document.getElementById('play-button');
+        const pauseButton = document.getElementById('pause-button');
+
+        playButton.addEventListener('click', () => {
+            audio.play();
+        });
+
+        pauseButton.addEventListener('click', () => {
+            audio.pause();
+        });
+    </script>
       <!--en tete du site avec logo-->
       <header>
         <nav>
