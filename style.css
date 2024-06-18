@@ -61,6 +61,7 @@ h3 {
   color: #0c0c0c;
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
   text-align: center;
+  margin-bottom: 0.6em;
 }
 
 /*haut et pied de page */
@@ -236,7 +237,7 @@ li {
   color: #000000;
 }
 .hautdepage:hover {
-  opacity: 0.5;
+  color: #2a16de;
 }
 /*fin du lien de haut de page*/
 
