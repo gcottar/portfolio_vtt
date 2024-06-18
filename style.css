@@ -302,6 +302,16 @@ li {
 .img_bike:hover {
   border: solid 1px blue;
 }
+.img_bike2 {
+  width: 300px;
+  height: 300px;
+  margin-top: 6em;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  border: solid 1px white;
+}
+.img_bike2:hover {
+  border: solid 1px blue;
+}
 .img_bike_blue {
   width: 400px;
   height: 300px;
@@ -369,6 +379,7 @@ li {
   align-items: center;
   margin: auto auto 6em auto;
 }
+
 /*fin du style des images*/
 
 /*style banniere de présentation du site et qui disparait*/
