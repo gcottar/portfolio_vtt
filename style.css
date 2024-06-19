@@ -78,7 +78,7 @@ html {
 
 /*texte qui s'affiche progressivement*/
 
-#typed-text {
+h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 3.5em;
   background-image: linear-gradient(to bottom, #efedf4, #60b51b);
