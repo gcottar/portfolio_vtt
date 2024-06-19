@@ -20,34 +20,16 @@
   <!-- Favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.io/favicon.ico">
   </head>
-    <body>
+  <div class="arriere_plan">
+    <body>  
+      <div id="haut-de-page" ></div>
       <div class="video-overlay" id="videoOverlay">
-        <video src="images/VTT/COTTAR_1.mp4" id="logoVideo" autoplay muted>
+        <video src="images/VTT/COTTAR_2.mp4" id="logoVideo" autoplay muted>
        </video>
     </div>
     <div class="content" id="mainContent">
         <!-- Contenu principal de ton site -->
-      <div class="arriere_plan">
-      <!--Musique du site-->
-      <audio id="background-music" src="music/Amadeus - Legendary.mp3" autoplay loop>
-        Votre navigateur ne peut lire ce contenu audio.</audio>
-        <div id="custom-audio-controls">
-          <button id="play-button">Play</button>
-          <button id="pause-button">Pause</button>
-      </div>
-      <script>
-        const audio = document.getElementById('background-music');
-        const playButton = document.getElementById('play-button');
-        const pauseButton = document.getElementById('pause-button');
-
-        playButton.addEventListener('click', () => {
-            audio.play();
-        });
-
-        pauseButton.addEventListener('click', () => {
-            audio.pause();
-        });
-    </script>
+         
       <!--en tete du site avec logo-->
       <header>
         <nav>
@@ -108,14 +90,9 @@
       </header>
       <main>
         <section>
-          <!--Titre avec photo de profil et lien sur la photo-->
-          <h1>Guy COTTAR</h1>
-          <a href="#experience">
-            <img src="images/photo_profil.jpg" alt="Profil" class="photo" style="vertical-align: middle;"/>
-          </a>
-          <h2>A propos de mon parcours professionnel</h2>
+        <h1>COTTAR RÉPARATION</h1>
+         <h2>A propos de mon parcours professionnel</h2>
           <div class="parcours">
-          <div id="experience">
             <p>
               J'ai commencé mon parcours professionel en faisant un CAP de
               Métallier-Serrurier, puis j'ai continué avec un Brevet
@@ -195,7 +172,7 @@
       <a href="images/VTT/cube_2.JPEG" target="_blank">
         <img src="images/VTT/cube_2.JPEG" alt="Vélo Cube" class="img_cube" title="Cube stéréo bosch"> 
     </a>
-    <video src="images/VTT/video_cube_custom.mp4" controls autoplay loop preload="auto" width="420" height="400" poster="images/VTT/cube_vtt.html" class="img_cube_1" title="Vidéo Cube Customisation">Votre navigateur ne supporte pas la balise vidéo.
+    <video src="images/VTT/video_cube_custom.mp4" preload="auto" autoplay loop muted  width="420" height="400" poster="images/VTT/cube_vtt.html" class="img_cube_1" title="Vidéo Cube Customisation">Votre navigateur ne supporte pas la balise vidéo.
     </video>
     <a href="images/VTT/cube_1.JPEG" target="_blank">
       <img src="images/VTT/cube_1.JPEG" alt="Vélo Cube" class="img_cube" title="Cube stéréo bosch"> 
@@ -303,11 +280,13 @@
             >Télécharger mon CV</a
           >
         </div>
-        <a href="index.html" class="hautdepage">↑ Haut de page ↑</a>
+        <a href="#haut-de-page" class="hautdepage">↑ Haut de page ↑</a>
         <p class="copyright">&copy; 2024 Guy Cottar. Tous droits réservés.</p>
       </footer>
     </div>
+  
   </div>
   <script src="script_2.js"></script>
+</div>
     </body>
 </html>
