@@ -3,6 +3,38 @@
   padding: 0;
   box-sizing: border-box;
 }
+body,
+html {
+  overflow: hidden;
+}
+.video-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white; /* Semi-transparent pour masquer l'arrière-plan */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* S'assurer que le conteneur est au-dessus de tout le reste */
+}
+
+.video-overlay video {
+  max-width: 100%;
+  max-height: 100%;
+}
+.hidden {
+  display: none;
+}
+.content {
+  display: none; /* Masquer le contenu principal initialement */
+}
+.show-content .content {
+  display: block; /* Afficher le contenu principal une fois la vidéo terminée */
+  overflow: auto;
+}
+
 /*arrière plan du site avec plusieurs images qui change*/
 .arriere_plan {
   animation: backgroundChange 30s infinite;
@@ -26,6 +58,23 @@
   background-repeat: no-repeat;
 }
 /*fin du changement arrière plan*/
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.video-container video {
+  max-width: 80%;
+  max-height: 80%;
+}
 
 /*texte qui s'affiche progressivement*/
 
@@ -381,26 +430,6 @@ li {
 }
 
 /*fin du style des images*/
-
-/*style banniere de présentation du site et qui disparait*/
-.banner {
-  color: white; /* Couleur du texte */
-  text-shadow: 6px 6px 8px rgba(17, 228, 70, 0.5);
-  text-align: center; /* Centrer le texte */
-  padding: 50px 0; /* Espacement autour du texte */
-  font-size: 4em; /* Taille du texte */
-  position: fixed; /* Position fixe en haut de la page */
-  width: 100%; /* Largeur complète */
-  top: 30%; /* En haut de la page */
-  left: 0; /* Aligné à gauche */
-  z-index: 1000; /* Au-dessus des autres éléments */
-  transition: opacity 1s ease-out; /* Transition pour la disparition */
-}
-
-.banner.hide {
-  opacity: 0; /* Rend la bannière invisible */
-}
-/*fin du style de la bannière*/
 
 /* Cacher le contrôleur audio natif */
 #background-music {

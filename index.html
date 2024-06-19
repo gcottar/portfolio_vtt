@@ -20,9 +20,14 @@
   <!-- Favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.io/favicon.ico">
   </head>
-  
-  <div class="arriere_plan">
     <body>
+      <div class="video-overlay" id="videoOverlay">
+        <video src="images/VTT/COTTAR.mp4" id="logoVideo" autoplay preload="auto" muted>
+       </video>
+    </div>
+    <div class="content" id="mainContent">
+        <!-- Contenu principal de ton site -->
+      <div class="arriere_plan">
       <!--Musique du site-->
       <audio id="background-music" src="music/Amadeus - Legendary.mp3" autoplay loop>
         Votre navigateur ne peut lire ce contenu audio.</audio>
@@ -109,9 +114,6 @@
           <a href="#experience">
             <img src="images/photo_profil.jpg" alt="Profil" class="photo" style="vertical-align: middle;"/>
           </a>
-          <div class="banner" id="welcomeBanner">
-            <h1>Bienvenue sur mon site</h1>
-          </div>
           <script src="script2.js"></script>
           <h2>A propos de mon parcours professionnel</h2>
           <div class="parcours">
@@ -175,7 +177,7 @@
             <img src="images/VTT/vtt_giant (1).JPEG" alt="Giant_marbelizer" class="img_bike" title="Giant_marbelizer"> 
         </a>
             <a href="images/VTT/vtt_giant (5).JPEG" target="_blank">
-            <img src="images/VTT/vtt_giant (5).JPEG" alt="Giant_marbelizer" class="img_bike" title="Giant_marbelizer">
+            <img src="images/VTT/vtt_giant (5).JPEG" alt="Giant_marbelizer" class="img_bike2" title="Giant_marbelizer">
         </a>
             <a href="images/VTT/vtt_giant (6).JPEG" target="_blank">
                 <img src="images/VTT/vtt_giant (6).JPEG" alt="Giant_marbelizer" class="img_bike" title="Giant_marbelizer"> 
@@ -306,6 +308,8 @@
         <a href="index.html" class="hautdepage">↑ Haut de page ↑</a>
         <p class="copyright">&copy; 2024 Guy Cottar. Tous droits réservés.</p>
       </footer>
-    </body>
+    </div>
   </div>
+  <script src="script.js"></script>
+    </body>
 </html>
